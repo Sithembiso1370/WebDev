@@ -1,0 +1,19 @@
+Structuring the folder inside the server:
+
+configurations
+Make a file called database.js in the config folder. The necessary code for connecting to the MongoDB database will be contained in this file.
+
+controllers
+
+The files in the controllers’ folder will contain the methods for the endpoints to interface with the database.
+
+models
+
+The files that specify the MongoDB schema will be found in the model’s folder.
+
+routers
+
+The files with the endpoints will be found in the routers folder.
+
+-------------------------------------------------------------------------------------------------
+This blog tutorial demonstrated how to use the MERN stack to build a basic React Todo CRUD application. This concise guide went over the essential MERN stack topics one by one, focusing on each one carefully and discreetly. You learned how to establish a basic react app, style it with necessary npm packages, and make HTTP queries related to the crud app; we also set up the node back-end server in the react app using necessary npm packages. We used MongoDB to save and store the data and learned how to use the React platform to store the data, and this lesson might have been very helpful for you if you are new to MERN stack development. Cheers!!
